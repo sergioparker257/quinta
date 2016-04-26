@@ -1,0 +1,273 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<!--<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>-->
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>THE 5 WAKE</h1>
+	</div>
+	<div data-role="content">
+    <center>
+      <img src="imagenes/trilogiua.png" width="600" height="400">
+      
+      
+       <audio controls>
+       <source src="musica/Take.mp3" type="audio/ogg"> 
+       </audio>
+    </center>
+<h2>Bienvenido</h2>
+<ul data-role="listview">
+			<li><a href="#infonue" data-transition="slidedown">TRILOGIA</a> </li>
+            <li><a href="#adaptacion" data-transition="slidedown">ADAPTACION AL CINE</a> </li>
+			<li><a href="#gale" data-transition="flow">EXTRAS</a> </li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>By:CubitoDeHielo</h4>
+	</div>
+</div>
+
+<div data-role="page" id="infonue">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Regresar</a>
+		<h1>Trilogia</h1>
+	</div>
+	<div data-role="content">	
+    
+		<div data-role="collapsible">
+			<H1>LA QUINTA OLA</H1>
+			<div>
+			<a href="#por-1" data-rel="popup" data-position-to="window">
+			<img src="imagenes/porty1.png" alt="Skaret View" style="width:100px;"></a>
+				<div data-role="popup" id="por-1">
+					<p>PORTADA DEL PRIMER LIBRO</p>
+					<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/porty1.png" style="width:500px;height:800px; alt="Skaret view"> </div>
+                    SINOPSIS:<BR>
+                 No habrá despertar.
+A la mañana siguiente, la mujer
+dormida no sentirá nada, salvo una
+leve inquietud y la sensación
+constante de que la observan. Su
+ansiedad remitirá en menos de un
+día y pronto quedará olvidada.
+El recuerdo del sueño
+permanecerá un poco más.
+En él, un enorme búho está
+posado al otro lado de la ventana,
+observándola a través del cristal
+con unos ojos gigantescos
+ribeteados de blanco.
+La mujer no despertará, ni
+tampoco su marido, que duerme
+junto a ella. La sombra que cae
+sobre la pareja no perturbará su
+sueño. Y lo que viene a buscar la
+sombra, el bebé que espera dentro
+de la mujer dormida, no sentirá
+nada. La intrusión no rasga la piel ni
+viola célula alguna del niño o de la
+madre.
+Acaba en menos de un minuto.
+La sombra se retira.
+Ahora no hay nadie más que el
+hombre, la mujer, el bebé que lleva
+dentro, y el intruso que se ha
+instalado en el interior del bebé y
+que también duerme.
+La mujer y el hombre se
+despertarán por la mañana; el bebé
+lo hará unos cuantos meses más
+tarde, al nacer.
+El intruso que lleva dentro
+seguirá durmiendo y no despertará
+hasta varios años después, cuando
+la desazón de la madre del niño y el
+recuerdo de aquel sueño ya hayan
+desaparecido hace tiempo.
+Cinco años después, en una
+visita al zoo con su hijo, la mujer
+ve un búho idéntico al de su sueño.
+La visión del búho la inquieta por
+motivos que no logra comprender.
+No es la primera vez que sueña
+con búhos en la oscuridad.
+Tampoco será la última.   
+			</div>
+		</div>
+	
+		<div data-role="collapsible">
+			<H1>MAR INFINITO</H1>
+			<div>
+			<a href="#por-2" data-rel="popup" data-position-to="window">
+			<img src="imagenes/porty2.png" alt="Skaret View" style="width:100px;"></a>
+				<div data-role="popup" id="por-2">
+					<p>PORTADA DEL SUGUNDO LIBRO</p>
+					<p><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/porty2.png" style="width:500px;height:800px; alt="Skaret view"> </p>
+				
+				</div>
+                SINOPSIS:<br>
+                    Después de la quinta ola… los Otros buscan superv iv ientes en el mar
+inf inito.
+Cassie Sulliv an y sus compañeros han sobrev iv ido a las cuatro olas de
+destrucción de los Otros. Ahora, con la raza humana prácticamente
+exterminada y la quinta ola arrasándolo todo, se enf rentan a una elección:
+esperar a Ev an Walker o huir en búsqueda de otros superv iv ientes antes de
+que el enemigo los alcance. Consumidos, pero no derrotados. Acosados,
+pero no sometidos. Esta guerra ha dejado de ser de humanos contra
+alienígenas. Es la lucha de la esperanza contra la desolación. De la f e contra
+el miedo. Del amor contra el odio. Y la humanidad es el campo de batalla.
+Saben cómo piensas. Saben cómo matarte. Creen que no tienes ninguna
+oportunidad. Pero no saben… que no estás solo.
+			</div>
+		</div>
+
+		<div data-role="collapsible">
+			<H1>LA ULTIMA ESTRELLA</H1>
+			<div>
+			<a href="#por-3" data-rel="popup" data-position-to="window">
+			<img src="imagenes/porty3.png" alt="Skaret View" style="width:100px;"></a>
+				<div data-role="popup" id="por-3">
+					<p>PORTADA DEL TERCER Y ULTIMO LIBRO</p>
+					<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/porty3.png" style="width:500px;height:800px; alt="Skaret view"></div>
+                    
+                    SINOPSIS:<BR>
+"Estamos aquí , después nos hemos ido, y era cierto antes de que llegaran. Eso siempre ha sido cierto. Los Otros no inventaron la muerte; solo la perfeccionaron. Dieron a la muerte un rostro para ponerlo en nuestra cara, porque sabían que era la única manera de aplastarnos . No terminará en cualquier continente u océano, en ninguna montaña o llanura, selva o desierto. Se terminará donde empezó, donde había estado desde el principio, en el campo de batalla del ultimo latido del corazón humano."
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>By:CubitoDeHilo</h4>
+	</div>
+</div>
+	
+
+<div data-role="page" id="adaptacion">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Regresar</a>
+		<h1>ADAPTACION AL CINE</h1>
+	</div>
+	<div data-role="content"></div>
+  
+    <center><h1>RODAJE<h1></center>
+    <center><p>Tras una planificada invasión extraterrestre de la Tierra en 4 oleadas que ha acabado casi con toda la humanidad, la joven Cassie Sullivan intenta encontrar a su hermano pequeño mientras trata de sobrevivir junto a otros supervivientes.</p></center><br>
+    <p>REPARTO:<BR>
+    <img src="imagenes/DIRECTOR.jpg" width="160" height="213">J Blakeson <BR>
+    ACTORES Y ACTRICES:<br>
+  <img src="imagenes/CASSIE.jpg" width="160" height="213">Chloë Grace Moretz 
+Personaje : Cassie Sullivan <br>
+<img src="imagenes/BEN_2.jpg" width="160" height="213">Nick Robinson 
+Personaje : Ben Parish/Zombie<br>
+<img src="imagenes/EVAN.jpg" width="160" height="213">Alex Roe 
+Personaje : Evan Walker <br>
+<img src="imagenes/VOSCH.jpg" width="160" height="213">Liev Schreiber 
+Personaje : Colonel Vosch <br>
+<img src="imagenes/OLIVER.jpg" width="160" height="213">Ron Livingston 
+Personaje : Oliver Sullivan <br>
+<img src="imagenes/LISA.jpg" width="160" height="213">Maggie Siff 
+Personaje : Lisa Sullivan<br>
+ <img src="imagenes/REZNIK.jpg" width="160" height="213">Maria Bello 
+Personaje : Sergeant Reznik  <br>
+<br>
+<br>
+  </p>
+  <center><p>
+  Personaje/Papel<br>
+  Poundcake /Nadji Jeter <br>
+Dumbo /Tony Revolori <br>
+Hutchfield /Terry Serpico <br>
+Doctor/ Barbara Vincent <br>
+Major/ Bob Michael Beasley <br>
+Lizbeth /Gabriela Lopez <br>
+Soldier/ Jim Palmer <br>
+Parker /Derek Roberts <br>
+Anchor #1/ Andi Matheny <br>
+Whitehouse Spokesperson /E. Roger Mitchell <br>
+Confused Man/ Devin McGee <br>
+Soldier /Kendrick Cross <br>
+Soldier/ Nicolas Bosc <br>
+Quarantine Refugee/ Robert Hatch<br> 
+Megaphone Soldier /James Sutton <br>
+Dr.Osborne /Johnny Otto <br>
+Sergeant Webb/ Adam C. Johnson<br> 
+2nd in Command /Carter Ian <br>
+Football Player /Andrew Cunningham (II) <br>
+  </p>
+  <p>
+  GUIONISTAS:<br>
+Guionista Susannah Grant <br>
+Guionista Akiva Goldsman <br>
+Guionista Jeff Pinkner <br>
+De Rick Yancey <br>
+</p>
+<p>
+BANDA SONORA:<br>
+Compositor Henry Jackman 
+</p>
+<p>
+PRODUCTORES:<br>
+Productor Tobey Maguire <br>
+Productor Graham King <br>
+Productor Lynn Harris <br>
+Productor Tim Headington <br>
+Productor ejecutivo Chris Lowenstein <br>
+</p>
+<p>
+EQUIPO TÉCNICO:<br>
+Director de fotografía Enrique Chediak <br>
+Montador jefe Paul Rubell <br>
+Jefe de los decorados Jon Billington <br>
+Decorador Frank Galline <br>
+Directora de reparto Francine Maisler <br>
+Encargada de vestuario Sharen Davis <br>
+</p>
+<p>
+DISTRIBUIDORA:<br>
+Encargada de prensa Anne Lara 
+</p>
+<p>
+EMPRESAS QUE HAN PARTICIPADO:<br>
+Productora GK Films <br>
+Productora Columbia Pictures <br>
+Productora Living Films <br>
+  </p></center>
+
+  <div data-role="footer" data-position="fixed" data-fullscreen="true">
+    <h4>bY: Hiedra</h4>
+  </div>
+
+</div>
+
+<div data-role="page" id="gale">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Regresar</a>
+		<h1>EXTRAS</h1>
+	</div>
+	<div data-role="content">	
+			<center><H1>MINI GALERIA</H1></center>
+			<div>
+            <img src="imagenes/lqo.png" width="600" height="300"> <BR>
+            <img src="imagenes/porty1.png" width="314" height="475"><br>
+            <img src="imagenes/porty2.png" width="314" height="475"><br>
+            <img src="imagenes/porty3.png" width="314" height="475"><br>
+            <img src="imagenes/img1.jpg" width="450" height="300"><br>
+            <img src="imagenes/poster2.jpg" width="300" height="450"><br>
+           <img src="imagenes/poster.jpg" width="389" height="129"> </div>
+
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>By: Hiedra</h4>
+	</div>
+
+</div>
+</body>
+</html>
